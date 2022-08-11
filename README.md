@@ -16,9 +16,9 @@ The Bookstore is a website similar to the "Awesome Books" website built bymyself
 
 ## Getting Started
 
-**This web page is books site with my List planned or shores to do in the future**
+**This web page is bookstore site with lists of Books, that can be added and deleted**
 
-**To do List project works on mobile and desktop using @Media queries .**
+**BookStore project works on mobile and desktop using @Media queries .**
 
 ---
 
@@ -29,7 +29,7 @@ follow>>>>>>>>>
 
 to use the project To do list please follow :
 
-> Open GitHub and go to my GitHub repository name: math-magician.to clone.
+> Open GitHub and go to my GitHub repository name: bookstore.to clone.
 > Click “Code” and copy the given URL.
 > click code and copy the URL.
 
@@ -45,7 +45,7 @@ $ git clone {repository URL}
 
 ### Usage
 
-> open your directory math-magician/
+> open your directory bookstore/
 
 \_use vs-code or any IDE to view line code .
 
@@ -57,7 +57,7 @@ $ npm start to run the local server
 
 ## Click here for live version
 
-- live demo: [Netlify](https://clinquant-taiyaki-41e17a.netlify.app/)
+- live demo: [coming soon]()
 
 ## Authors
 

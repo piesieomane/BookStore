@@ -1,5 +1,6 @@
 import React from 'react';
 import Books from './Books';
+import AddBook from './AddBook';
 
 const BooksHolder = () => {
   const BOOKS = [
@@ -11,6 +12,7 @@ const BooksHolder = () => {
       {BOOKS.map((book) => (
         <Books key={book.id} title={book.title} author={book.author} />
       ))}
+      <AddBook />
     </div>
   );
 };
