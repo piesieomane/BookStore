@@ -1,0 +1,9 @@
+.book {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_book {
+  display: flex;
+  flex-direction: row;
+}
