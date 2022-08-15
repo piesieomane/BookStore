@@ -20,6 +20,14 @@ The Bookstore is a website similar to the "Awesome Books" website built bymyself
 
 **BookStore project works on mobile and desktop using @Media queries .**
 
+#### To use it locally
+
+-Clone the project from GitHub here
+-Run the following commands as listed in your terminal:
+
+- $npm install
+- $npm start
+
 ---
 
 To get a local copy up and running follow these simple example steps.
