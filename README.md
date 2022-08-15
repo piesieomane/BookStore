@@ -25,7 +25,7 @@ The Bookstore is a website similar to the "Awesome Books" website built bymyself
 -Clone the project from GitHub here
 -Run the following commands as listed in your terminal:
 
-- $npm install
+- $npm install to install node_modules
 - $npm start
 
 ---
