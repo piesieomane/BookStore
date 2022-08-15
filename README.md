@@ -22,7 +22,7 @@ The Bookstore is a website similar to the "Awesome Books" website built bymyself
 
 #### To use it locally
 
--Clone the project from GitHub here
+-Clone the project from GitHub here or use this Link{https://github.com/piesieomane/BookStore.git}
 -Run the following commands as listed in your terminal:
 
 - $npm install to install node_modules
