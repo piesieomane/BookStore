@@ -15,6 +15,7 @@ const Books = (prop) => {
       <div className={styles.book}>
         <div className={styles.about_book}>
           <p>{title}</p>
+          <strong>BY</strong>
           <p>{author}</p>
           <button type="button" onClick={removeBookFromList}>
             Remove
