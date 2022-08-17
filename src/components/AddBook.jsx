@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-// import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { addBOOK } from '../redux/books/books';
-// import API from './api';
 
 const AddBook = () => {
   const dispatch = useDispatch();
