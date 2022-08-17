@@ -12,7 +12,7 @@ export default (state = [], action) => {
     case 'booksholder/books/ADD_BOOK/fulfilled':
       return [...state, action.payload.books];
     case 'booksholder/books/REMOVE_BOOK/fulfilled':
-      return state.filter((book) => book.id !== action.payload.id);
+      return [...state.filter((book) => book[0] !== action.payload.id)];
     default:
       return state;
   }
