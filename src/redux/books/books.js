@@ -1,8 +1,11 @@
-const ADD_BOOK = 'booksholder/books/ADD';
-const REMOVE_BOOK = 'booksholder/books/REMOVE';
+const ADD_BOOK = 'booksholder/books/ADD_BOOK';
+const REMOVE_BOOK = 'booksholder/books/REMOVE_BOOK';
+const FETCH_BOOKS = 'booksholder/books/FETCH_BOOKS';
 
 export default (state = [], action) => {
   switch (action.type) {
+    case FETCH_BOOKS:
+      return [...state];
     case ADD_BOOK:
       return [...state, action.book];
     case REMOVE_BOOK:
@@ -11,6 +14,10 @@ export default (state = [], action) => {
       return state;
   }
 };
+
+export const fetchBOOK = () => ({
+  type: FETCH_BOOKS,
+});
 
 export const addBOOK = (book) => ({
   type: ADD_BOOK,
