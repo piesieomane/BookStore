@@ -11,21 +11,6 @@ const BooksHolder = () => {
   // const dispatch = useDispatch();
   console.log('BOOKS6', books);
 
-  // useEffect(
-  //   () => async () => {
-  //     const bookShelf = await axios.get(`${API}/books`);
-  //     if (bookShelf.data) {
-  //       Object.keys(bookShelf.data).forEach((itemId) => {
-  //         const data = bookShelf.data[itemId];
-  //         const book = Object.assign({}, { item_id: itemId }, ...data);
-  //         BOOKS.push(book);
-  //       });
-  //       return dispatch(fetchBOOK());
-  //     }
-  //     return console.log('no books');
-  //   },
-  //   [],
-  // );
 
   return (
     <div>
