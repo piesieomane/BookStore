@@ -1,9 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-// import axios from 'axios';
 import styles from './Books.module.css';
 import { removeBook } from '../redux/books/books';
-// import API from './api';
 
 const Books = (prop) => {
   const dispatch = useDispatch();
