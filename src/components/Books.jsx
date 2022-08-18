@@ -20,7 +20,7 @@ const Books = (prop) => {
         <div className="about_book d-flex">
           <h3 className="title1 font-mont">{category}</h3>
           <h2 className="title2 font-Roboto">{title}</h2>
-          <p className="title1 font-mont">{author}</p>
+          <p className="title1 font-mont color-blue">{author}</p>
         </div>
         <div className="btn_control">
           <button className="btn_cl font-Roboto" type="button">

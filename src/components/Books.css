@@ -44,3 +44,14 @@
   background-color: white;
   border: none;
 }
+
+.color-blue {
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  opacity: 1;
+}

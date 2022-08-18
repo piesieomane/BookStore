@@ -77,15 +77,3 @@
   animation-name: icon;
   animation-duration: 5s;
 }
-
-@keyframes icon {
-  0% {
-    font-size: 1rem;
-  }
-  50% {
-    font-size: 1.5rem;
-  }
-  100% {
-    font-size: 1rem;
-  }
-}
