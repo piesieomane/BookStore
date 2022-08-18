@@ -1,23 +1,30 @@
 .add_book {
-  margin-left: 3rem;
+  border-top: #888 0.5px solid;
 }
 
 .add_book_title {
   font-family: Montserrat, sans-serif;
+  display: flex;
+  align-self: flex-start;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.18px;
-  color: #888888;
+  color: #888;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: 2.5rem;
 }
 
 input {
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
-  width: 20rem;
+  width: 100%;
   height: 2.563rem;
 }
 
@@ -31,25 +38,14 @@ label > select {
 }
 
 .add_book_btn {
-  width: 11.5rem;
-  height: 2.813rem;
-  margin: 1.188rem 0 0 2.125rem;
-  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
   background-color: #0290ff;
-  font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
+  font-weight: 300;
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
   border: none;
-}
-
-.add_book_btn:hover {
-  background-color: #0290ff;
-  color: #fff;
+  width: 27rem;
 }

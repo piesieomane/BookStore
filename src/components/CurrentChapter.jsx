@@ -1,9 +1,9 @@
-import style from './CurrentChapter.module.css';
+import './CurrentChapter.css';
 
 const CurrentChapter = () => {
   const random = Math.floor(Math.random() * (30 - 1 + 1)) + 1;
   return (
-    <div className={style.chapter}>
+    <div className="chapter">
       <h3 className="current-chaper font-Roboto">CURRENT CHAPTER</h3>
       <h3 className="chapter-number font-Roboto">
         Chapter
