@@ -25,26 +25,25 @@
     var(--b) no-repeat,
     conic-gradient(var(--c) calc(var(--p) * 1%), #0000 0);
   -webkit-mask:
-      radial-gradient(
-      farthest-side,
-    #0000 calc(99% - var(--b)),
-    #000 calc(100% - var(--b))
-  );
-
-  mask: 
     radial-gradient(
       farthest-side,
-    #0000 calc(99% - var(--b)),
-    #000 calc(100% - var(--b))
-  );
+      #0000 calc(99% - var(--b)),
+      #000 calc(100% - var(--b))
+    );
+  mask:
+    radial-gradient(
+      farthest-side,
+      #0000 calc(99% - var(--b)),
+      #000 calc(100% - var(--b))
+    );
 }
 
 .pie::after {
   inset: calc(50% - var(--b) / 2);
   background: var(--c);
   transform:
-     rotate(calc(var(--p) * 3.6deg))
-     translateY(calc(50% - var(--w) / 2));
+    rotate(calc(var(--p) * 3.6deg))
+    translateY(calc(50% - var(--w) / 2));
 }
 
 .animate {
