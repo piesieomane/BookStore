@@ -67,10 +67,9 @@
 }
 
 .user svg {
-  color: #0290ff;
   width: 1.5rem;
   height: 1.5rem;
-  padding-right: 5rem;
+  margin-left: 74%;
 }
 
 .user svg:hover {
