@@ -1,5 +1,79 @@
 .navflex {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
   align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  height: 5.938rem;
+  gap: 3rem;
+  background-color: #fff;
+  padding: 0 1.5rem;
+  border-bottom: solid 1px #e8e8e8;
+}
+
+.navflex h1 {
+  height: 2.313rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.navflex .navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.313rem;
+  gap: 0.625rem;
+  list-style: none;
+}
+
+.navflex .navlinks .anchor {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.navflex .navlinks .anchor:hover {
+  opacity: 1;
+}
+
+.navflex .navlinks .anchor:active {
+  opacity: 1;
+}
+
+.navflex li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.313rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.user {
+  color: #0290ff;
+  height: 1.5rem;
+}
+
+.user svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 74%;
+}
+
+.user svg:hover {
+  font-size: 1rem;
+  animation-name: icon;
+  animation-duration: 5s;
 }
