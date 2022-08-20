@@ -6,13 +6,12 @@ BOOKSTORE
 
 This project is built with React Js.
 
-The Bookstore is a website similar to the "Awesome Books" website built bymyself in my Github repositories. This is an MVP version of it that allows users to display a lists of books, add a book and remove a selected book.
+The Bookstore is a website similar to the "Awesome Books" website built by myself in my Github repositories. This is an MVP version of it that allows users to display a lists of books, add a book and remove a selected book.
 
 ## Built With
 
 - React Js
 - Jest testing
-- following github flows standards.
 
 ## Getting Started
 
