@@ -64,7 +64,7 @@ $ npm start to run the local server
 
 ## Click here for live version
 
-- live demo: [](https://63075d963d190d1094428804--fabulous-cuchufli-2b6fdb.netlify.app/)
+- live demo: [Click here](https://63075d963d190d1094428804--fabulous-cuchufli-2b6fdb.netlify.app/)
 
 ## Authors
 
